@@ -1,0 +1,38 @@
+@font-face{
+    font-family:"typo";
+    src: url("ressources/Helvetica.ttf") format("truetype");
+
+    font-family:"typo1";
+    src: url("ressources/bahnschrift.ttf") format("truetype");
+
+    font-family:"typo2";
+    src: url("ressources/Marcellus-Regular.ttf") format("truetype");
+}
+
+body{
+    margin: 50px 200px 0px 200px;
+    font-family: "typo1";
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+section{
+    margin: 150px auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
