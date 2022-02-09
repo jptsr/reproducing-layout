@@ -124,12 +124,19 @@ p{
 
 .fdOrange{
     background-color: rgb(255, 102, 0);
-    width: 100%;
+    margin-bottom: 0;
+    border: none;
+}
+
+.img1{
+    margin-top: 80px;
+    margin-bottom: 0;
 }
 
 .imgDiv{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 
@@ -144,6 +151,10 @@ p{
 
 .sizeLimit{
     max-width: 40%;
+}
+
+.realTitle{
+    margin: 18px auto;
 }
 
 .latinP{
