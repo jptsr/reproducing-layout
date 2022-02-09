@@ -21,7 +21,7 @@ body{
 
 .container{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;    
     align-items: center;
 }
 
@@ -37,7 +37,7 @@ a{
 
 .btn1{
     border: 0.15em solid rgb(255, 102, 0);
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     background-color: white;
     width: 150px;
     height: 50px;
@@ -47,7 +47,7 @@ a{
 
 .btn1:Hover{
     border: 0.15em solid white;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     background-color: rgb(255, 102, 0);
     color: white;
     cursor: pointer;
@@ -68,7 +68,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    max-width: 40%;
+    max-width: 35%;
 }
 
 .span1{
@@ -101,6 +101,43 @@ p{
 
 .flex{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demoList{
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu{
+    list-style-type: none;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    display: none;
+}
+
+.menu:hover{
+    border: none;
+    background-color: rgb(255, 102, 0, 0.5);
+}
+
+.link3{
+    margin: auto;
+    color: white;
+    font-size: 0.8em;
+}
+
+.option{
+    display: flex;
+    margin: auto;
 }
 
 .fontSize1{
@@ -109,7 +146,7 @@ p{
 
 .btn2{
     border: none;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     background-color: rgb(255, 102, 0);
     width: 150px;
     height: 50px;
@@ -117,13 +154,17 @@ p{
     cursor: pointer;
 }
 
-.btn2:Hover{
+.btn2:hover{
     border: 0.15em solid rgb(255, 102, 0);
-    border-radius: 0.7em;
+    border-radius: 0.5em 0.5em 0 0;
     background-color: white;
     color: rgb(255, 102, 0);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+}
+
+.btn2:hover ~ .menu{
+    display: flex;
 }
 
 .grey{
@@ -223,12 +264,13 @@ h3{
     font-size: 1.5em;
 }
 
-ul{
+.planL{
     text-align: left;
 }
 
-li{
+.planl{
     text-align: left;
+    list-style-image: url(resources/v.png);
 }
 
 strong{
@@ -250,6 +292,7 @@ strong{
     display: flex;
     flex-direction: column;  
     align-items: center;
+    justify-content: space-between;
 }
 
 .superposition{
@@ -278,7 +321,7 @@ strong{
 
 .container2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .plan1{
@@ -322,13 +365,13 @@ input{
     height: 50px;
     width: 240px;
     border: 0.1em solid black;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     position: absolute;
     padding-left: 10px;
 }
 .subBtn{
     border: 0.15em solid white;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     background-color: rgb(255, 102, 0);
     width: 90px;
     height: 45px;
@@ -340,7 +383,7 @@ input{
 
 .subBtn:Hover{
     border: 0.15em solid rgb(255, 102, 0);
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     background-color: white;
     color: rgb(255, 102, 0);
     cursor: pointer;
@@ -369,5 +412,5 @@ footer{
 
 .container3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
