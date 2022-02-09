@@ -42,6 +42,7 @@ a{
     width: 150px;
     height: 50px;
     color: rgb(255, 102, 0);
+    cursor: pointer;
 }
 
 .btn1:Hover{
@@ -49,6 +50,7 @@ a{
     border-radius: 0.7em;
     background-color: rgb(255, 102, 0);
     color: white;
+    cursor: pointer;
 }
 
 
@@ -111,6 +113,15 @@ p{
     width: 150px;
     height: 50px;
     color: white;
+    cursor: pointer;
+}
+
+.btn2:Hover{
+    border: 0.15em solid rgb(255, 102, 0);
+    border-radius: 0.7em;
+    background-color: white;
+    color: rgb(255, 102, 0);
+    cursor: pointer;
 }
 
 .grey{
@@ -176,23 +187,45 @@ p{
 
 .planTitle{
     text-align: center;
+    margin-bottom: 90px;
 }
 
 .plan{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 280px;
+    height: 420px;
+    border: 0.001em solid rgb(231, 231, 231);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
-.flexiblePlan{
-    border-width: 1em;
-    border-radius: 50px;
-    background-color: white;
+.plan:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 280px;
+    height: 420px;
+    border: 0.0001em solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(202, 202, 202, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 h3{
     text-align: left;
     font-size: 1.5em;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    text-align: left;
 }
 
 strong{
@@ -299,6 +332,15 @@ input{
     color: white;
     position: relative;
     margin-left: 160px;
+    cursor: pointer;
+}
+
+.subBtn:Hover{
+    border: 0.15em solid rgb(255, 102, 0);
+    border-radius: 0.7em;
+    background-color: white;
+    color: rgb(255, 102, 0);
+    cursor: pointer;
 }
 
 ::placeholder{
@@ -319,4 +361,9 @@ footer{
     margin-bottom: 100px;
     font-size: 0.7em;
     color: rgb(31, 31, 31);
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
 }
