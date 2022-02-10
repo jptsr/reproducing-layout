@@ -273,6 +273,7 @@ h3{
 .planl{
     text-align: left;
     list-style-image: url(resources/v.png);
+    /*list-style-type: "\2713";*/
 }
 
 strong{
@@ -299,7 +300,9 @@ strong{
 
 .superposition{
     margin: 150px 0 150px 0;
-    background-color: rgb(255, 102, 0);
+    background-image: 
+        radial-gradient(rgb(255, 102, 0), rgb(255, 102, 0)),
+        radial-gradient(circle at 20% 70%, blue, green);
 }
 
 .up{
@@ -437,7 +440,7 @@ input{
 
 
 footer{
-    margin-bottom: 100px;
+    margin: 150px 200px 100px 200px;
     font-size: 0.7em;
     color: rgb(31, 31, 31);
     margin-top: -100px;
@@ -450,4 +453,8 @@ footer{
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 25px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
