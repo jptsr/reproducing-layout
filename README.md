@@ -2,5 +2,5 @@
 
 ***HTML/CSS training***
 
-Exercice d'entraînement HTML et CSS qui consiste en la reproduction d'une landing page (instructions ci-dessous).
-Lien vers ma reproduction : [Reproduction](https://jptsr.github.io/reproducing-layout/)
+Exercise to train ourselves with HTML and CSS langage. The instructions are to reprocuce the landing page as closely as possible.
+Link to my reproduction : [Reproduction](https://jptsr.github.io/reproducing-layout/)
